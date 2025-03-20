@@ -1,3 +1,17 @@
+This repository contains a mobile job search application built using Expo Go and TypeScript. It's a modern recreation of an older JavaScript tutorial, focusing on learning and implementing best practices with TypeScript.
+
+Key features and goals:
+
+* **Expo Go:** Leveraging Expo Go for rapid mobile development and testing.
+* **TypeScript:** Transitioning from the original JavaScript tutorial to TypeScript for improved code maintainability and type safety.
+* **Job Search Functionality:** Implementing core features for searching and displaying job listings.
+* **Learning and Practice:** Primarily a learning project to explore Expo Go and TypeScript in the context of mobile app development.
+* **Modernization:** Updating outdated practices and dependencies from the original tutorial.
+
+This project serves as a practical exercise for understanding Expo Go and TypeScript in a mobile app development workflow. Contributions and feedback are welcome!
+
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
