@@ -7,27 +7,38 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { icons } from '@/constants/icons';
+// export default function HomeScreen() {
+//   const router = useRouter();
+//   console.log('HomeScreen is working');
+//   return (
+//     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+//        <Stack.Screen
+//         options={{
+//           headerStyle: { backgroundColor: COLORS.lightWhite },
+//           headerShadowVisible: true,
+//           headerLeft: () => {
+//             console.log('Rendering headerLeft'); 
+//             return <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />;
+//           },
+//           headerRight: () => {
+//             console.log('Rendering headerRight'); 
+//             return <ScreenHeaderBtn iconUrl={icons.profile} dimension="100%" />
+//           }, 
+//           headerTitle: "Title - Home",
+//         }}
+//       /> 
+ 
+//       <Text>Home</Text>
+//       <HelloWave />
+//     </SafeAreaView>
+//   );
+// }
 export default function HomeScreen() {
   const router = useRouter();
-  return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
-      <Stack.Screen
-        options={{
-          headerStyle: { backgroundColor: COLORS.lightWhite },
-          headerShadowVisible: false,
-          headerLeft: () => (
-            <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
-          ),
-          headerRight: () => (
-            <ScreenHeaderBtn iconUrl={icons.profile} dimension="100%" />
-          ),
-          headerTitle: "",
-        }}
-      />
 
-      <Text>Home</Text>
-      <HelloWave />
+  return (
+    <SafeAreaView style={styles.safeArea}>     
+     <Text onPress={() => router.push('/test')} style={{  backgroundColor: COLORS.lightWhite }}>Go to Test Screen</Text>
     </SafeAreaView>
   );
 }
@@ -49,6 +60,16 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
+  safeArea: {
+    flex: 1,
+    backgroundColor: COLORS.lightWhite,
+    paddingTop: Platform.OS === 'android' ? 25 : 0, // Add padding for Android status bar
+    paddingHorizontal: 16, // Add horizontal padding for better spacing
+  },
+  text: {
+    fontSize: 16,
+    color: 'black',
+  }
 });
 
 // =============================== from example ========================================

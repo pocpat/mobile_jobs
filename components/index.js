@@ -26,4 +26,5 @@ export {
   JobFooter,
   Specifics,
   NearbyJobCard
+ 
 };
