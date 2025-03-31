@@ -2,7 +2,7 @@
 // The icons are imported from the assets/icons directory and exported as an object.
 
 export const icons = {
-  menu: require('../assets/icons/menu.png'), 
+  menu: require('../assets/icons/menu.png'),
   profile: require('../assets/icons/profile.png'), 
   heart: require('../assets/icons/heart.png'),
   search: require('../assets/icons/search.png'),

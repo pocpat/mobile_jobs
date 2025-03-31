@@ -7,38 +7,21 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-// export default function HomeScreen() {
-//   const router = useRouter();
-//   console.log('HomeScreen is working');
-//   return (
-//     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
-//        <Stack.Screen
-//         options={{
-//           headerStyle: { backgroundColor: COLORS.lightWhite },
-//           headerShadowVisible: true,
-//           headerLeft: () => {
-//             console.log('Rendering headerLeft'); 
-//             return <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />;
-//           },
-//           headerRight: () => {
-//             console.log('Rendering headerRight'); 
-//             return <ScreenHeaderBtn iconUrl={icons.profile} dimension="100%" />
-//           }, 
-//           headerTitle: "Title - Home",
-//         }}
-//       /> 
- 
-//       <Text>Home</Text>
-//       <HelloWave />
-//     </SafeAreaView>
-//   );
-// }
 export default function HomeScreen() {
   const router = useRouter();
+  console.log('HomeScreen content is rendering');
 
   return (
-    <SafeAreaView style={styles.safeArea}>     
-     <Text onPress={() => router.push('/test')} style={{  backgroundColor: COLORS.lightWhite }}>Go to Test Screen</Text>
+    <SafeAreaView style={styles.safeArea}>
+      {/*  actual screen content goes here */}
+      <Text style={styles.text}>Welcome to the Home Screen Content!</Text>
+      <HelloWave />
+      {/* Example Button to navigate */}
+      {/* <Text onPress={() => router.push('/test')} style={styles.text}>Go to Test Screen</Text> */}
+
+      <Welcome /> 
+      <Popularjobs /> 
+     <Nearbyjobs />
     </SafeAreaView>
   );
 }
@@ -63,12 +46,12 @@ const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
     backgroundColor: COLORS.lightWhite,
-    paddingTop: Platform.OS === 'android' ? 25 : 0, // Add padding for Android status bar
-    paddingHorizontal: 16, // Add horizontal padding for better spacing
+    padding: SIZES.medium, 
   },
   text: {
     fontSize: 16,
     color: 'black',
+    marginBottom: 10 
   }
 });
 
