@@ -1,27 +1,25 @@
-import { Image, StyleSheet, Platform, View, _ScrollView, SafeAreaView, Text } from 'react-native';
-import {useState} from 'react';
-import {Stack, useRouter} from 'expo-router';
-import {COLORS, SIZES, icons, images} from '@/constants';
-import {Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome} from '@/components';
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import 'react-native-reanimated';
+import { Image, StyleSheet, Platform, View, SafeAreaView, Text } from 'react-native';
+import { useState } from 'react';
+import { Stack, useRouter } from 'expo-router';
+import { COLORS, SIZES, icons, images } from '../../constants'; // Use relative path if `@` alias is not configured
+import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from '../../components'; // Use relative path
+import {HelloWave} from '../../components/HelloWave';
+import {ScrollView} from 'react-native'
+
 export default function HomeScreen() {
   const router = useRouter();
   console.log('HomeScreen content is rendering');
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      {/*  actual screen content goes here */}
-      <Text style={styles.text}>Welcome to the Home Screen Content!</Text>
-      <HelloWave />
-      {/* Example Button to navigate */}
-      {/* <Text onPress={() => router.push('/test')} style={styles.text}>Go to Test Screen</Text> */}
-
-      <Welcome /> 
-      <Popularjobs /> 
-     <Nearbyjobs />
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <Text style={styles.text}>Welcome to the Home Screen Content!</Text>
+        <HelloWave />
+        <Welcome />
+        <Popularjobs />
+        <Nearbyjobs />
+      </ScrollView>
     </SafeAreaView>
   );
 }
