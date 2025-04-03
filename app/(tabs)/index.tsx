@@ -14,11 +14,21 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <Text style={styles.text}>Welcome to the Home Screen Content!</Text>
+        <View 
+        style={{
+          flex:1,
+          padding: SIZES.medium,
+        }}>
+  <Welcome />
+  <Popularjobs />
+  <Nearbyjobs />
+
+
+        </View>
+        <Text style={styles.text}>Welcome from the HomeScreen Component!</Text>
         <HelloWave />
-        <Welcome />
-        <Popularjobs />
-        <Nearbyjobs />
+      
+
       </ScrollView>
     </SafeAreaView>
   );

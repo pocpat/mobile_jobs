@@ -11,10 +11,9 @@ import { useColorScheme } from "../../hooks/useColorScheme";
 import { ScreenHeaderBtn } from "../../components";
 import { COLORS, icons } from "../../constants"; // Corrected import path
 
+
 export default function TabLayout() {
   const colorScheme = useColorScheme();
-  console.log('Icons object:', icons);
-
   return (
     <Tabs
       screenOptions={{
@@ -37,10 +36,10 @@ export default function TabLayout() {
           headerShown: true,
           headerTitle: "Home",
           headerLeft: () => (
-            <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
+            <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" handlePress={() => console.log('Menu pressed')} />
           ),
           headerRight: () => (
-            <ScreenHeaderBtn iconUrl={icons.profile} dimension="60%" />
+            <ScreenHeaderBtn iconUrl={icons.profile} dimension={60} handlePress={() => console.log('Profile pressed')} />
           ),
         }}
       />
