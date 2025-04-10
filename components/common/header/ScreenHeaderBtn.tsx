@@ -1,26 +1,18 @@
 import React from "react";
-import { View, Text } from "react-native";
 import {
   TouchableOpacity,
   Image,
-  StyleSheet,
   ImageSourcePropType,
-  ImageStyle,
   DimensionValue,
 } from "react-native";
-import styles from './screenheader.style'
+import styles, { btnImg } from "./screenheader.style";
 
-// Define styles explicitly
-// const styles = StyleSheet.create({
-//   image: {
-//     resizeMode: "contain",
-//   } as ImageStyle, // Explicitly type as ImageStyle
-// });
 interface ScreenHeaderBtnProps {
   iconUrl: ImageSourcePropType;
-  dimension: DimensionValue;
+  dimension: DimensionValue; // Use DimensionValue for width/height
   handlePress?: () => void;
 }
+
 const ScreenHeaderBtn: React.FC<ScreenHeaderBtnProps> = ({
   iconUrl,
   dimension,
@@ -32,10 +24,10 @@ const ScreenHeaderBtn: React.FC<ScreenHeaderBtnProps> = ({
       <Image
         source={iconUrl}
         resizeMode="cover"
-        style={styles.btnImg(dimension)}
+        style={btnImg(dimension)} // Call the function to resolve the style
       />
-      <Text style={{ fontSize: 16, color: "#000" }}>Header Button</Text>
     </TouchableOpacity>
   );
 };
+
 export default ScreenHeaderBtn;
