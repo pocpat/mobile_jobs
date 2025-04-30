@@ -18,20 +18,21 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   searchContainer: {
-    justifyContent: "center",
-    alignItems: "center",
     flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     marginTop: SIZES.large,
+    width: "100%",
     height: 50,
+    
   },
   searchWrapper: {
-    flex: 1,
+    flex: 1, 
     backgroundColor: COLORS.white,
     marginRight: SIZES.small,
-    justifyContent: "center",
-    alignItems: "center",
     borderRadius: SIZES.medium,
-    height: "100%",
+    height: "100%", // Match the height of the container
+    justifyContent: "center", 
   },
   searchInput: {
     fontFamily: FONT.regular,
@@ -41,15 +42,15 @@ const styles = StyleSheet.create({
   },
   searchBtn: {
     width: 50,
-    height: "100%",
+    height: 50,
     backgroundColor: COLORS.tertiary,
     borderRadius: SIZES.medium,
     justifyContent: "center",
     alignItems: "center",
   },
   searchBtnImage: {
-    width: "50%",
-    height: "50%",
+    width: "60%",
+    height: "60%",
     tintColor: COLORS.white,
   },
   tabsContainer: {

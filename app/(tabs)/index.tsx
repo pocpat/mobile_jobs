@@ -1,5 +1,5 @@
 import 'react-native-reanimated';
-import { Image, StyleSheet, Platform, View, SafeAreaView, Text } from 'react-native';
+import { FlatList, Image, StyleSheet, Platform, View, SafeAreaView, Text } from 'react-native';
 import { useState } from 'react';
 import { Stack, useRouter } from 'expo-router';
 import { COLORS, SIZES, icons, images } from '../../constants'; // Use relative path if `@` alias is not configured
@@ -8,31 +8,49 @@ import {HelloWave} from '../../components/HelloWave';
 import {ScrollView} from 'react-native'
 
 export default function HomeScreen() {
-  const router = useRouter();
-  console.log('HomeScreen content is rendering');
+  const sections = [
+    { id: 'welcome', component: <Welcome /> },
+    { id: 'popularjobs', component: <Popularjobs /> },
+    { id: 'nearbyjobs', component: <Nearbyjobs /> },
+  ];
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <ScrollView showsVerticalScrollIndicator={false}>
-        <View 
-        style={{
-          flex:1,
-          padding: SIZES.medium,
-        }}>
-  <Welcome />
-  <Popularjobs />
-  <Nearbyjobs />
-
-
-        </View>
-        <Text style={styles.text}>Welcome from the HomeScreen Component!</Text>
-        <HelloWave />
-      
-
-      </ScrollView>
+      <FlatList
+        data={sections}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => item.component}
+        showsVerticalScrollIndicator={false}
+      />
     </SafeAreaView>
   );
 }
+// export default function HomeScreen() {
+//   const router = useRouter();
+//   console.log('HomeScreen content is rendering');
+
+//   return (
+//     <SafeAreaView style={styles.safeArea}>
+//       <ScrollView showsVerticalScrollIndicator={false}>
+//         <View 
+//         style={{
+//           flex:1,
+//           padding: SIZES.medium,
+//         }}>
+//   <Welcome />
+//   <Popularjobs />
+//   <Nearbyjobs />
+
+
+//         </View>
+//         <Text style={styles.text}>Welcome from the HomeScreen Component!</Text>
+//         <HelloWave />
+      
+
+//       </ScrollView>
+//     </SafeAreaView>
+//   );
+// }
 
 const styles = StyleSheet.create({
   titleContainer: {

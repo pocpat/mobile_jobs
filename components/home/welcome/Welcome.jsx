@@ -24,7 +24,7 @@ const Welcome = () => {
         <Text style={styles.welcomeMessage}>Find your perfect job.</Text>
       </View>
       {/* search */}
-      <View stylr={styles.searchContainer}>
+      <View style={styles.searchContainer}>
         <View style={styles.searchWrapper}>
           <TextInput
             style={styles.searchInput}
@@ -43,21 +43,27 @@ const Welcome = () => {
       </View>
 
       <View style={styles.tabsContainer}>
-        <FlatList
-          data={jobTypes}
-          nestedScrollEnabled 
-          renderItem={({ item }) => (
-            <TouchableOpacity 
-            style={styles.tab(activeJobType, item)}
-            onPress={() => {
-              setActiveJobType(item);
-              router.push(`/search/${item}`);
-            }}
-            >
-              <Text style={styles.tabText(item)}>{item}</Text>
-            </TouchableOpacity>
-          )}
-        />
+      <FlatList
+      data={jobTypes}
+     
+      renderItem={({ item }) => (
+        <TouchableOpacity
+          style={styles.tab(activeJobType, item)}
+          onPress={() => {
+            setActiveJobType(item);
+            router.push(`/search/${item}`);
+          }}
+        >
+          <Text style={styles.tabText(activeJobType, item)}>{item}</Text>
+        </TouchableOpacity>
+      )}
+      keyExtractor={(item) => item}
+      contentContainerStyle={{ columnGap: SIZES.small }}
+      horizontal
+    />
+
+
+
       </View>
     </View>
   );
