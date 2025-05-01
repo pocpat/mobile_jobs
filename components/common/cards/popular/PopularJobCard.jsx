@@ -12,13 +12,7 @@ const PopularJobCard = ({item, selectedJob, handleCardPress}) => {
     
       style={styles.logoContainer(selectedJob, item)}
       onPress={ ()=> handleCardPress(item)}>
-     {/* // <Image
-      //   source={{ uri: checkImageURL(item.employer_logo)
-      //     ? item.employer_logo
-      //    : 'https://cdn-icons-png.flaticon.com/512/149/149071.png'
-      //    }}
-      //   resizeMode="contain"
-      //   style={styles.logoImage}/> */}
+    
       <Image
   source={
     checkImageURL(item.employer_logo)
