@@ -1,0 +1,502 @@
+[
+  {
+    "job_id": "1",
+    "employer_name": "DevMasters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "United States",
+    "job_employment_type": "Full-time",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "2",
+    "employer_name": "BitWorks",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "United States",
+    "job_employment_type": "Full-time",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "3",
+    "employer_name": "PixelCrafters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "United States",
+    "job_employment_type": "Contract",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "4",
+    "employer_name": "TechNova",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "United States",
+    "job_employment_type": "Contract",
+    "job_salary": "$100,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "5",
+    "employer_name": "SkyNetics",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "United States",
+    "job_employment_type": "Full-time",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "6",
+    "employer_name": "InnoSoft",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "United States",
+    "job_employment_type": "Contract",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "7",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "United States",
+    "job_employment_type": "Full-time",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "8",
+    "employer_name": "TechNova",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "United States",
+    "job_employment_type": "Internship",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "9",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "United States",
+    "job_employment_type": "Full-time",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "10",
+    "employer_name": "PixelCrafters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "United States",
+    "job_employment_type": "Contract",
+    "job_salary": "$100,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "11",
+    "employer_name": "BitWorks",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "New Zealand",
+    "job_employment_type": "Internship",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "12",
+    "employer_name": "DevMasters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "New Zealand",
+    "job_employment_type": "Part-time",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "13",
+    "employer_name": "PixelCrafters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "New Zealand",
+    "job_employment_type": "Contract",
+    "job_salary": "$60,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "14",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "New Zealand",
+    "job_employment_type": "Full-time",
+    "job_salary": "$60,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "15",
+    "employer_name": "NextGen Devs",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "New Zealand",
+    "job_employment_type": "Contract",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "16",
+    "employer_name": "DevMasters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "New Zealand",
+    "job_employment_type": "Internship",
+    "job_salary": "$60,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "17",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "New Zealand",
+    "job_employment_type": "Contract",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "18",
+    "employer_name": "InnoSoft",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "New Zealand",
+    "job_employment_type": "Part-time",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "19",
+    "employer_name": "InnoSoft",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "New Zealand",
+    "job_employment_type": "Full-time",
+    "job_salary": "$60,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "20",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "New Zealand",
+    "job_employment_type": "Full-time",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "21",
+    "employer_name": "CyberForge",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Australia",
+    "job_employment_type": "Part-time",
+    "job_salary": "$100,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "22",
+    "employer_name": "InnoSoft",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "Australia",
+    "job_employment_type": "Full-time",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "23",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Australia",
+    "job_employment_type": "Internship",
+    "job_salary": "$100,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "24",
+    "employer_name": "PixelCrafters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Australia",
+    "job_employment_type": "Full-time",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "25",
+    "employer_name": "NextGen Devs",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Australia",
+    "job_employment_type": "Contract",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "26",
+    "employer_name": "SkyNetics",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Australia",
+    "job_employment_type": "Contract",
+    "job_salary": "$60,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "27",
+    "employer_name": "BitWorks",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Australia",
+    "job_employment_type": "Internship",
+    "job_salary": "$100,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "28",
+    "employer_name": "TechNova",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Australia",
+    "job_employment_type": "Internship",
+    "job_salary": "$60,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "29",
+    "employer_name": "CodeWave",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "Australia",
+    "job_employment_type": "Part-time",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "30",
+    "employer_name": "InnoSoft",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Australia",
+    "job_employment_type": "Full-time",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "31",
+    "employer_name": "CodeWave",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Germany",
+    "job_employment_type": "Part-time",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "32",
+    "employer_name": "TechNova",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "Germany",
+    "job_employment_type": "Contract",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "33",
+    "employer_name": "PixelCrafters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Germany",
+    "job_employment_type": "Internship",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "34",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "Germany",
+    "job_employment_type": "Contract",
+    "job_salary": "$100,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "35",
+    "employer_name": "CodeWave",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Germany",
+    "job_employment_type": "Contract",
+    "job_salary": "$60,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "36",
+    "employer_name": "SkyNetics",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Germany",
+    "job_employment_type": "Full-time",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "37",
+    "employer_name": "TechNova",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Germany",
+    "job_employment_type": "Part-time",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "38",
+    "employer_name": "PixelCrafters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Germany",
+    "job_employment_type": "Contract",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "39",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Germany",
+    "job_employment_type": "Contract",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "40",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "Germany",
+    "job_employment_type": "Contract",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "41",
+    "employer_name": "DevMasters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "Canada",
+    "job_employment_type": "Part-time",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "42",
+    "employer_name": "DevMasters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "Canada",
+    "job_employment_type": "Internship",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "43",
+    "employer_name": "PixelCrafters",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Canada",
+    "job_employment_type": "Contract",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "44",
+    "employer_name": "SkyNetics",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "Canada",
+    "job_employment_type": "Contract",
+    "job_salary": "$100,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "45",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "Canada",
+    "job_employment_type": "Full-time",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "46",
+    "employer_name": "NeoApps",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "Web Developer",
+    "job_country": "Canada",
+    "job_employment_type": "Internship",
+    "job_salary": "$60,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "47",
+    "employer_name": "TechNova",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Canada",
+    "job_employment_type": "Full-time",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "48",
+    "employer_name": "CodeWave",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "QA Tester",
+    "job_country": "Canada",
+    "job_employment_type": "Contract",
+    "job_salary": "$90,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "49",
+    "employer_name": "NextGen Devs",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "UI/UX Designer",
+    "job_country": "Canada",
+    "job_employment_type": "Internship",
+    "job_salary": "$80,000",
+    "job_description": "This is a dummy description for the job position."
+  },
+  {
+    "job_id": "50",
+    "employer_name": "NextGen Devs",
+    "employer_logo": "https://via.placeholder.com/50",
+    "job_title": "DevOps Engineer",
+    "job_country": "Canada",
+    "job_employment_type": "Full-time",
+    "job_salary": "$70,000",
+    "job_description": "This is a dummy description for the job position."
+  }
+]
